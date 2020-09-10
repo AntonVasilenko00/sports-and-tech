@@ -12,5 +12,55 @@ a {
 
 body {
   height: 100vh;
-  background: url(../img/main-bg.jpg) no-repeat;
+  background: url(../img/main-bg.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.container {
+  padding: 5vh 3%;
+}
+
+/* Sidebar */
+#sidebar {
+  min-width: 20px;
+  width: 2.5%;
+  height: 90vh;
+  align-items: center;
+}
+
+#sidebar,
+#menu,
+#social-media {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-item {
+  margin-top: 5.5vh;
+}
+
+.menu-item:first-child {
+  margin-top: 0;
+}
+
+.menu-item:last-child {
+  margin-bottom: 5vh;
+}
+
+.menu-icon {
+  width: 100%;
+  height: auto;
+}
+
+.social-link i {
+  margin-top: 2.5vh;
+  color: #fff;
+  transform: scale(1.5);
+}
+
+.vertical-line {
+  background-color: #fff;
+  width: 0.1rem;
+  height: 40%;
 }
